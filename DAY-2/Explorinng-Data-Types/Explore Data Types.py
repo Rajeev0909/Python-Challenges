@@ -1,4 +1,3 @@
-# Prompt user for different data types
 user_string = input("Enter a string: ")
 
 user_list = input("Enter a list of items (comma-separated): ").split(",")

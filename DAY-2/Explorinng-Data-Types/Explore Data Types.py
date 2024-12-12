@@ -16,11 +16,3 @@ print(f"The list is: {user_list} (Type: {type(user_list).__name__})")
 print(f"The tuple is: {user_tuple} (Type: {type(user_tuple).__name__})")
 print(f"The integer is: {user_int} (Type: {type(user_int).__name__})")
 print(f"The float is: {user_float} (Type: {type(user_float).__name__})")
-
-# Additional operations on each data type
-print("\n--- Additional Operations ---")
-print(f"Length of the string: {len(user_string)}")
-print(f"Length of the list: {len(user_list)}")
-print(f"First item in the tuple: {user_tuple[0] if len(user_tuple) > 0 else 'Tuple is empty'}")
-print(f"Square of the integer: {user_int ** 2}")
-print(f"Float divided by 2: {user_float / 2}")

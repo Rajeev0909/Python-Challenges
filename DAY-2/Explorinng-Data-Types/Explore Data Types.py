@@ -1,9 +1,9 @@
 user_string = input("Enter a string: ")
 
-user_list = input("Enter a list of items (comma-separated): ").split(",")
+user_list = input("Enter a list of items : ").split(",")
 user_list = [item.strip() for item in user_list]  # Clean up whitespace
 
-user_tuple = tuple(input("Enter a tuple of items (comma-separated): ").split(","))
+user_tuple = tuple(input("Enter a tuple of items : ").split(","))
 
 user_int = int(input("Enter an integer: "))
 user_float = float(input("Enter a float: "))

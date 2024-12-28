@@ -9,4 +9,5 @@ def lcs(X, Y):
                 dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
     return dp[m][n]
 
+
 print("LCS Length:", lcs("ABCBDAB", "BDCAB"))
